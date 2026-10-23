@@ -193,43 +193,6 @@ Outputs: `model`, `positive`, `negative` for the sampler.
 ### Carousel Sheet (PixelAI Labs)
 All shots on one image, `columns` per row (4 by default). Handy for a quick look or a client preview.
 
----
-
-## Recipes
-
-### 1. Instagram lifestyle carousel
-**mode** Lifestyle · **shots** 4 · **camera** smartphone · **face** auto · image 2 off
-
-![Lifestyle](docs/example_lifestyle.jpg)
-
-### 2. Same outfit all day (best consistency)
-**mode** Lifestyle · **image 2** = the outfit (ghost mannequin or flat-lay photo) · **image_2_is** outfit ·
-**scene** `evening in Paris` · **camera** smartphone
-
-![Lifestyle with an outfit](docs/example_lifestyle_outfit.jpg)
-
-### 3. Street-style lookbook
-**mode** Fashion · **image 2** = the outfit · **image_2_is** outfit · **camera** smartphone ·
-**scene** one place per line: `a café terrace in Paris` / `a stone bridge over the Seine` / `a flower market stall` /
-`a quiet Paris street at golden hour`
-
-![Street lookbook](docs/example_fashion_street.jpg)
-
-### 4. E-commerce studio shots
-**mode** Fashion · **image 2** = the outfit · **image_2_is** outfit · **camera** professional · **scene** empty →
-a studio with a light grey backdrop: front, close-up, three-quarter, and back (when your outfit image shows the back).
-
-![Studio lookbook](docs/example_fashion_studio.jpg)
-
-### 6. A new version of the same set
-Change **seed** on the Director → a new plan. Keep the Director seed and change the sampler seed in the ENGINE → the
-same shots, new renders.
-
-### 7. 100% identity with a character LoRA
-Turn on the bypassed **Character LoRA** node in group 5 (Ctrl + B) and load a LoRA of your character trained on the
-**Krea 2 base model**, at 0.8 (a bit lower if the look gets stiff). The photo still drives the outfit and the scene; the
-LoRA locks the face from every angle, profiles included. How to train one is covered step by step in the
-**Ultimate AI Influencer Pro** course on [pixelailabs.com](https://pixelailabs.com).
 
 ---
 
