@@ -221,45 +221,15 @@ a studio with a light grey backdrop: front, close-up, three-quarter, and back (w
 
 ![Studio lookbook](docs/example_fashion_studio.jpg)
 
-### 5. UGC product photos
-**mode** UGC · **image 2** = the product photo · **image_2_is** product · **face** natural ·
-**Options → image_2_name** = the product's name → beside her face, showing it to the lens, using it, close-up.
-
-![UGC](docs/example_ugc.jpg)
-
-### 6. With a boyfriend or a friend
-**mode** Lifestyle · **image 2** = their photo · **image_2_is** person → side by side, waist-up.
-
-![With a second person](docs/example_person.jpg)
-
-### 7. Exact expressions and exact places
-**face** custom · **custom_faces**: `slight smirk` / `wink` / `soft smile` / `both eyebrows raised` ·
-**scene**: `in a car` / `at a sushi bar` / `in a boutique fitting room` / `on a rooftop at night`
-
-![Custom faces and places](docs/example_custom_faces_places.jpg)
-
-### 8. A different body shape
-Type it in **body_shape** (`curvy hourglass figure`), or turn image 2 on with a photo of the figure you want and set
-**image_2_is** = body shape. Her face and clothes stay; only her figure changes. It shows from waist-up shots down,
-and most in full-length shots (loose clothes hide it).
-
-### 9. A new version of the same set
+### 6. A new version of the same set
 Change **seed** on the Director → a new plan. Keep the Director seed and change the sampler seed in the ENGINE → the
 same shots, new renders.
 
-### 10. 100% identity with a character LoRA
+### 7. 100% identity with a character LoRA
 Turn on the bypassed **Character LoRA** node in group 5 (Ctrl + B) and load a LoRA of your character trained on the
 **Krea 2 base model**, at 0.8 (a bit lower if the look gets stiff). The photo still drives the outfit and the scene; the
 LoRA locks the face from every angle, profiles included. How to train one is covered step by step in the
 **Ultimate AI Influencer Pro** course on [pixelailabs.com](https://pixelailabs.com).
-
----
-
-## Camera looks compared
-
-The same 4 shots with each camera setting (top: clean · then smartphone variants · bottom: professional).
-
-![Camera styles](docs/camera_styles.jpg)
 
 ---
 
