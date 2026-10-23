@@ -82,7 +82,7 @@ With ComfyUI Manager: open the workflow, then *Install Missing Custom Nodes*.
 | `krea2_turbo_fp8_scaled.safetensors` (Krea 2 Turbo) | `models/diffusion_models` | use the **int8 convrot** version instead of fp8 |
 | `qwen3vl_4b_fp8_scaled.safetensors` (Krea 2 text encoder) | `models/text_encoders` | use the **int8 convrot** version instead of fp8 |
 | `qwen_image_vae.safetensors` | `models/vae` | |
-| `krea2_general_edit_v2.safetensors` (Krea 2 General Edit V2) | `models/loras/krea2` | |
+| `krea2_general_edit_v2.safetensors` (Krea 2 General Edit V2) | `models/loras` | |
 | `famegrid_spicy.safetensors` (FameGrid) | `models/loras` | optional style LoRA |
 | `realism_engine_krea2_v3.1.safetensors` (Realism Engine) | `models/loras` | optional style LoRA |
 
