@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-krea2-edit-carousel"
+description = "Krea 2 Edit carousel generator for ComfyUI. One photo of a person in, a whole Instagram carousel out: 2, 4 or 8 new shots of the same person (Lifestyle, Fashion lookbook, UGC product) with Krea 2 edit. By PixelAI Labs."
+version = "1.0.0"
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/Pixelailabs/ComfyUI-Krea2-Edit-Carousel"
+Homepage = "https://pixelailabs.com"
+
+[tool.comfy]
+PublisherId = "pixelailabs"
+DisplayName = "Krea2 Edit Carousel (PixelAI Labs)"
+Icon = ""
